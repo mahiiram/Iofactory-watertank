@@ -13,3 +13,22 @@
     font-size: x-large;
   }
 
+  .btn{
+    margin-top: 5px;
+    background-color: #4CAF50;
+    height: 30px;
+    width: 120px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+  .btn:hover {
+    background-color: #3E8E41;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
